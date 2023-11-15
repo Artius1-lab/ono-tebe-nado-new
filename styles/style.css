@@ -39,7 +39,7 @@ header {
 }
 
 .image_header {
-  background-image: url('../images/logo-black.svg');
+  background-image: url("../images/logo-black.svg");
   width: 129.11px;
   height: 104.65px;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ header {
   margin-left: 9px;
 }
 .image_cover {
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   width: 1440px;
   height: 757px;
   position: relative;
@@ -186,20 +186,20 @@ header {
   margin-left: 25px;
 }
 .lots_card_one {
-  background-image: url('../images/card-lot-01.jpg');
+  background-image: url("../images/card-lot-01.jpg");
   background-repeat: no-repeat;
   width: 430px;
   height: 450px;
   margin-left: 50px;
 }
 .lots_card_two {
-  background-image: url('../images/card-lot-02.jpg');
+  background-image: url("../images/card-lot-02.jpg");
   background-repeat: no-repeat;
   width: 430px;
   height: 450px;
 }
 .lots_card_three {
-  background-image: url('../images/card-lot-03.jpg');
+  background-image: url("../images/card-lot-03.jpg");
   background-repeat: no-repeat;
   width: 430px;
   height: 450px;
@@ -273,7 +273,7 @@ header {
   display: flex;
 }
 .circle_about {
-  background-image: url('../images/circle_about.svg');
+  background-image: url("../images/circle_about.svg");
   background-repeat: no-repeat;
   width: 240px;
   height: 240px;
@@ -282,7 +282,7 @@ header {
   flex-direction: row;
 }
 .image_about {
-  background-image: url('../images/logo-white.svg');
+  background-image: url("../images/logo-white.svg");
   background-repeat: no-repeat;
   margin-left: 46px;
   margin-top: 63px;
@@ -383,7 +383,7 @@ header {
   margin-left: 0px;
 }
 .youtube {
-  background-image: url('../images/yt.svg');
+  background-image: url("../images/yt.svg");
   height: 48px;
   width: 48px;
   background-repeat: no-repeat;
@@ -391,7 +391,7 @@ header {
   margin-left: 190px;
 }
 .vk {
-  background-image: url('../images/vk.svg');
+  background-image: url("../images/vk.svg");
   height: 48px;
   width: 48px;
   background-repeat: no-repeat;
@@ -399,7 +399,7 @@ header {
   margin-top: 87px;
 }
 .pinterest {
-  background-image: url('../images/pinterest.svg');
+  background-image: url("../images/pinterest.svg");
   height: 48px;
   width: 48px;
   background-repeat: no-repeat;
