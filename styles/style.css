@@ -1,6 +1,6 @@
 body {
   width: 1100px;
-  height: 3028px;
+ 
 }
 
 header {
@@ -48,7 +48,6 @@ header {
     box-sizing: border-box; 
 }
 .header_left{
-  height: 23px;
   margin-top: 137px;
   position: relative;
 }
@@ -264,7 +263,6 @@ header {
   font-weight: normal;
   color: white;
   word-spacing: 17px;
-  width: 635px;
   flex-direction: row;
   margin-top: 141px;
   margin-left: 78px;
@@ -309,18 +307,20 @@ header {
 .lots_card {
   display: flex;
   flex-direction: row;
-  margin-top: 27px;
   list-style-type: none;
+  margin-top: 27px;
+  
 }
-.lots_flex {
-  margin-left: 25px;
-}
+
+
 .lots_card_one {
   background-image: url("../images/card-lot-01.jpg");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 334px;
   height: 563px;
   margin-left: 24px;
+  
 }
 .lots_card_one_overlay{
   width: 334px;
@@ -337,9 +337,11 @@ header {
   background-image: url("../images/card-lot-02.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  margin-left: 0px;
   width: 334px;
   height: 563px;
-  
+  margin-left: 25px;
+   
 }
 .lots_card_two_overlay{
   width: 334px;
@@ -355,9 +357,10 @@ header {
 .lots_card_three {
   background-image: url("../images/card-lot-03.jpg");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 334px;
   height: 563px;
-  background-size: contain;
+  margin-left: 25px;
 }
 
 .lots_card_three_overlay{
@@ -379,15 +382,14 @@ header {
   color: white;
   margin-top: 50px;
   margin-left: 40px;
-  height: 52px;
-  width: 350px;
+  width: 334px;
 }
 .text_card_one {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: white;
-  margin-top: 269px;
+  margin-top: 243px;
   margin-left: 40px;
 }
 
@@ -399,7 +401,7 @@ header {
   color: white;
   margin-top: 50px;
   margin-left: 40px;
-  
+ 
 }
 .text_card_one h4{
   text-decoration: none;
@@ -429,7 +431,7 @@ header {
   font-weight: 400;
   color: white;
   margin-top: 96px;
-  margin-left: 40px;
+  margin-left: 39px;
   text-decoration: none;
 }
 .lots_more {
@@ -438,9 +440,9 @@ header {
   font-size: 20px;
   font-weight: 400;
   color: black;
-  margin-top: 30px;
+  top: 30px;
   margin-left: 64px;
-  position: absolute;
+  position: relative;
 
 }
 .lots_more::after {
@@ -476,7 +478,7 @@ header {
   margin-top: 63px;
   width: 148px;
   height: 114px;
-  position: absolute;
+  position: relative;
   flex-direction: row;
 }
 .text_about {
@@ -524,7 +526,7 @@ header {
 
 .phone_number_footer {
   text-decoration: underline;
-  width: 240px;
+  max-width: 240px;
   margin-top: 90px;
   margin-left: 49px;
 }
